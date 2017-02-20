@@ -18,5 +18,5 @@ RUN apt-get remove -y nodejs npm
 #RUN curl -0 -L https://npmjs.org/install.sh | sh
 
 EXPOSE 3003
-WORKDIR /var/apps/my-first-phoenix
+WORKDIR /var/apps/my_first_phoenix
 CMD /bin/bash
