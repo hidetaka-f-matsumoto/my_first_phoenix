@@ -1,7 +1,7 @@
 FROM elixir:1.4
 
 RUN apt-get update
-RUN apt-get install -y net-tools less vim
+RUN apt-get install -y net-tools less vim postgresql-9.4
 
 # phoenix
 RUN mix local.hex
