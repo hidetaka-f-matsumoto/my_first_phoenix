@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :my_first_phoenix, MyFirstPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "my_first_phoenix_dev",
+  username: "phoenix",
+  password: "phoenix",
+  database: "phoenix",
   hostname: "localhost",
   pool_size: 10
