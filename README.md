@@ -1,7 +1,7 @@
 # MyFirstPhoenix
 ## Docker
 * docker build -t hidetakafm/my-first-phoenix .
-* docker create -t -v ~/projects/private/my-first-phoenix:/var/apps/my_first_phoenix -p 3003:4000 --name my-first-phoenix hidetakafm/my-first-phoenix
+* docker create -t -v ~/projects/private/my_first_phoenix:/var/apps/my_first_phoenix -p 3003:4000 --name my-first-phoenix hidetakafm/my-first-phoenix
 * docker start my-first-phoenix
 * docker exec -it my-first-phoenix bash
 
